@@ -116,12 +116,13 @@ Gaming habit is the primary, most actionable driver of conversion. The Medium se
 Action: Design short, daily challenges and incentives specifically for the Medium Engagement segment (median of 9 sessions) to push them past 12 sessions per week (the High-Engagement’s lower quartile). This targeted effort on the smaller, more achievable gap enables efficient use of financial resources.
 
 ### 3. Average Session Duration Minutes (AvgSessionDurationMinutes)
-#### Interpretation
+#### A. Interpretation
 Session intensity also progresses significantly: Low Engagement median duration is 55 minutes, Medium is 84 minutes, and High is 138 minutes. The necessary jump from Medium to High requires a substantial increase of 54 minutes per session, in comparison to the jump from Low to Medium’s 29 minutes, signifying a major increase in commitment.
-#### Key Insight
+#### B. Key Insight
 Deeper immersion is the requirement for players’ financial commitment. The High Engagement player commits to sessions long enough to fully utilise premium, recurring game features (eg. 138 minutes is enough time to complete a full battle pass track). The Medium segment, while showing commitment (84 minutes), needs a major push in immersion of the game’s content to convert.
-#### Implications for Strategy
+#### C. Implications for Strategy
 Action: Implement a two-tiered in-game promotion system. Target the Medium Engagement median (84 minutes) with a high-value pop-up or challenge that explicitly requires the VIP subscription or Premium Battle Pass to unlock a major bonus, strategically extending their play into the 138-minute High-Engagement zone.
+
 
 ### 4. Defining Purchase Behavior Across Engagement Segments
 The goal of this visualisation is to test the company's hypothesis that Hardcore Players are primarily differentiated by making any in-game purchase, through comparison of the proportion of players who have purchased across the Low, Medium, and High engagement segments. I used a 100% Stacked Bar Chart (Three Segments) because this visual allows for a direct comparison of the purchaser vs. non-purchaser ratio within each segment, providing clear evidence on whether a single initial purchase is a predictor of high engagement.
