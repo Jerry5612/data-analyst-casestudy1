@@ -30,7 +30,7 @@ Three questions will guide the future conversion programme:
 
 ## Prepare
 ### Data Source
-I will use Atlas Interactive’s historical gaming data to analyse and identify trends which can be downloaded from [kaggle_dataset] (https://www.kaggle.com/datasets/rabieelkharoua/predict-online-gaming-behavior-dataset). The data has been made available by [Creative Commons] (https://creativecommons.org/licenses/by/4.0/) under this license.
+I will use Atlas Interactive’s historical gaming data to analyse and identify trends which can be downloaded from [kaggle_dataset](https://www.kaggle.com/datasets/rabieelkharoua/predict-online-gaming-behavior-dataset). The data has been made available by [Creative Commons](https://creativecommons.org/licenses/by/4.0/) under this license.
 
 This is public data that can be used to explore how different types of players play Shadow City Saga. But note that data-privacy issues prohibit from using players’ personally identifiable information. This means that we won’t be able to connect in-game purchases to credit card numbers to determine if casual players have purchased multiple premium battle passes and/or the recurring VIP-tier subscription membership.
 
@@ -68,12 +68,12 @@ Level
 
 2. Data preparation streamlined the dataset by removing non-essential fields. Since the core business objective is to identify factors influencing the conversion of Casual to Hardcore Players, the demographics data [ie. Age (Column B), Gender (Column C), and Location data (Columns D)] are excluded from the final dataset. This allows the concentration of  analytical effort exclusively on the behavioral metrics that directly measure player engagement and commitment.
 
-  ![image] (https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image12.png) 
+  ![image](https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image12.png) 
 
 3. Data filtering was performed to maximise analytical precision relative to the project scope. Since the project focuses only on Shadow City Saga, an Open-World Action-Adventure game, the dataset was filtered to exclude all rows of data where GameGenre (Column B)  does not contain the word “Action” (ie. RPG, Simulation, Sports, Strategy). This refined the focus to player behavior specifically within the relevant "Action" category.
 
- ![image] (https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image13.png)
- ![image] (https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image8.png)
+ ![image](https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image13.png)
+ ![image](https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image8.png)
 
 ### Summary
 1. All irrelevant columns of demographic data (ie. Age, Gender, and Location data) are deleted.
@@ -81,7 +81,7 @@ Level
 3. A total of 31,993 rows and 3 columns of irrelevant data are removed in this step
 
 ## Analyze and Share
-Data Visualization: [Tableau] (https://public.tableau.com/app/profile/jerry.soh/viz/game-playertype-casestudy/AveragePlayTimeHoursByPlayerType) 
+Data Visualization: [Tableau](https://public.tableau.com/app/profile/jerry.soh/viz/game-playertype-casestudy/AveragePlayTimeHoursByPlayerType) 
 The data is cleaned and stored appropriately and is now prepared for analysis. I visualised the analysed results in Tableau.
 The first analysis question is: How do Hardcore Players and Casual Players play Shadow City Saga differently? (Diagnosis)
 This question focuses on descriptive analysis and comparison of key behavioral metrics across the defined segments (Casual vs Hardcore) and the intermediate segments of Low, Medium, and High Engagement.
@@ -95,7 +95,7 @@ The goal of this visualisation is to identify the conversion threshold for gamin
 ### 3. Analysis of AvgSessionDurationMinutes (Immersion and Intensity)
 The goal of this visualisation is to define the required level of immersion and intensity by comparing the average duration of each gaming session (minutes) across the Low, Medium, and High engagement segments. I used a Side-by-Side Box Plot (Three Segments) because it clearly maps the progressive increase in session commitment, identifying the crucial time threshold necessary for players to fully engage with and value recurring premium content.
 
-![image] (https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image7.png)
+![image](https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image7.png)
 
 ### 1. Average Play Time Hours (PlayTimeHours)
 #### A. Interpretation
@@ -124,7 +124,7 @@ Action: Implement a two-tiered in-game promotion system. Target the Medium Engag
 ### 4. Defining Purchase Behavior Across Engagement Segments
 The goal of this visualisation is to test the company's hypothesis that Hardcore Players are primarily differentiated by making any in-game purchase, through comparison of the proportion of players who have purchased across the Low, Medium, and High engagement segments. I used a 100% Stacked Bar Chart (Three Segments) because this visual allows for a direct comparison of the purchaser vs. non-purchaser ratio within each segment, providing clear evidence on whether a single initial purchase is a predictor of high engagement.
 
-![image] (https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image2.png)
+![image](https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image2.png)
 
 #### A. Interpretation 
 A comparison of the in-game purchase rates reveals no significant difference across the engagement segments. The rate of players who have made at least one purchase is nearly identical: 19.52% for Low, 19.02% for Medium, and 19.67% for High Engagement players. This means over 80% of all players, regardless of engagement level, have never made a purchase.
@@ -136,7 +136,7 @@ Action: Atlas Interactive should abandon any broad marketing strategies aimed at
 ### 5. Progression Efficiency and Feature Utilisation Analysis
 The goal of this visualisation is to define the progression and feature utilisation efficiency by comparing the relationship between Player Level and quantity of Achievements Unlocked respectively across the Low, Medium, and High engagement segments. I used a Scatter Plot with Segmented Trend Lines because this visual effectively shows whether High Engagement players achieve a steeper progression curve (more achievements per level) than the other segments, thus demonstrating greater commitment to the in-game features.
 
-![image] (https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image1.png)
+![image](https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image1.png)
 
 #### A. Interpretation 
 The trend lines show an extremely weak correlation between Player Level and Achievements Unlocked for all three segments (Low: R2≈0.0025, Medium: R2≈0.0009, High: R2≈0.0024). The data is highly scattered, with no discernible relationship. Furthermore, the Low Engagement group shows a technically nonsensical, slightly negative slope (∇= −0.0340), confirming the model is invalid for all segments.
@@ -151,7 +151,7 @@ This involves identifying the leading indicators of conversion, focusing on the 
 ### 6. Difficulty Preference as an In-Game Motivational Factor
 The goal of this visualisation is to identify a clear in-game motivational factor by comparing the distribution of preferred Gameplay Difficulty chosen by players across the Low, Medium, and High engagement segments. I used a 100% Stacked Bar Chart (Three Segments) because it clearly reveals if High Engagement players disproportionately favor a specific difficulty setting. This allows Atlas Interactive to structure conversion rewards (such as exclusive items) around encouraging Medium players to attempt that motivational difficulty level.
 
-![image] (https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image10.png)
+![image](https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image10.png)
 
 #### A. Interpretation 
 Easy difficulty is the overwhelmingly dominant preference across all engagement levels (≈50%). However, the proportion of players choosing Hard difficulty peaks within the High Engagement group (21.03%). Notably, the strategic target Medium Engagement group shows the lowest proportional preference for Hard difficulty (18.74%).
@@ -163,7 +163,7 @@ Action: Design in-game promotions and time-limited events specifically to reward
 ### 7. Progression Gap Target: Median Player Level
 The goal of this visualisation is to establish a concrete, actionable progression threshold by comparing the Median Player Level across the Low, Medium, and High engagement segments. I used a Grouped Bar Chart Comparing Medians with a Reference Line because this format clearly isolates the level gap between the Medium Engagement segment and the Hardcore Median Target, allowing the product team to define a specific level goal for conversion rewards.
 
-![image] (https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image6.png)
+![image](https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image6.png)
 
 #### A. Interpretation 
 The Median Player Level shows a clear progression: Low (44), Medium (51), and High (52). The majority of the progression effort occurs in earlier stages (a 7-level jump from Low to Medium). The critical conversion gap between the Medium and Hardcore segment is extremely small, requiring only a 1-level increase (Level 51 to Level 52).
@@ -175,7 +175,7 @@ Action: The product team must set the conversion goal at Level 52 and trigger th
 ### 8. Achievement Gap Target: Reward-Based Motivation
 The goal of this visualisation is to establish a clear in-game reward threshold by comparing the Median Achievements Unlocked across the Low, Medium, and High engagement segments. I used a Grouped Bar Chart Comparing Medians with a Reference Line because this format precisely quantifies the achievement gap between the Medium segment and the Hardcore Median Target, which allows the product team to define a concrete reward goal for motivational campaigns.
 
-![image] (https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image4.png)
+![image](https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image4.png)
 
 #### A. Interpretation 
 The Median Achievements Unlocked is inconsistent with the engagement progression. Although the Low segment median is 22, the Medium Engagement segment records the highest median achievement count (26), unexpectedly outperforming the Hardcore segment (25). 
@@ -187,8 +187,8 @@ Action: Immediately remove the achievement count from any proposed conversion st
 ### 9. High-Potential Target Pool Synthesis: The Conversion Quadrant
 The goal of this synthesis visualisation is to precisely identify the High-Potential Target Pool by mapping the Medium Engagement segment against the two most crucial behavioral thresholds: Session Frequency and Session Duration. We used a Scatter Plot with Two Median Reference Lines because the resulting intersection defines the Hardcore Conversion Quadrant (top-right corner of visualisation), visually isolating the Medium Engagement players who are already adopting Hardcore gaming habits and are therefore the most efficient target for conversion campaigns.
 
-![image] (https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image9.png)
-![image] (https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image3.png)
+![image](https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image9.png)
+![image](https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image3.png)
 
 #### A. Interpretation 
 The High-Potential Target Pool (Medium Engagement players who meet both Hardcore median thresholds) is extremely small, comprising only 0.51% of the entire Medium Engagement segment. In comparison, 21.37% of the High Engagement segment meet this threshold. Interestingly, the Low Engagement segment shows a slightly higher rate of meeting the threshold (0.87%) than the Medium Engagement Segment.
@@ -211,7 +211,7 @@ Based on the comprehensive behavioral analysis conducted in previous analysis qu
 ### 10. Digital Channel Strategy: Financial Conversion Target
 The goal of this visualisation is to define the digital marketing target with the highest Return on Investment (ROI) by comparing the median Sessions Per Week of Medium Purchasers against Non-Purchasers, using the Hardcore Player threshold (median of 15 sessions) as the benchmark. I used a Grouped Bar Chart Comparing Medians with a Reference Line to conclusively test the assumption that past purchase history is a reliable predictor of the frequency needed for Hardcore conversion.
 
-![image] (https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image11.png)
+![image](https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image11.png)
 
 #### A. Interpretation 
 The median Sessions Per Week is identical for both Purchasers and Non-Purchasers in the Medium Engagement segment, at 9 sessions per week. Both groups sit significantly below the Hardcore Frequency Target of 15 sessions per week, highlighting a substantial 6-session weekly gap to conversion.
@@ -223,7 +223,7 @@ Action: Digital marketing efforts aimed at player conversion must abandon segmen
 ### 11. Optimal In-Game Prompt Time: Product Specification
 The goal of this visualisation is to translate the Hardcore behavioral intensity finding into a precise product specification by analysing the session duration distribution of the Medium Engagement segment. I used a Box Plot with Dual Median Reference Lines because this format clearly shows the current statistical variance and establishes the Hardcore Conversion Prompt Time (138 minutes), which is the exact minute mark the product team should utilise to trigger the highest-value, conversion-focused in-game promotion.
 
-![image] (https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image14.png)
+![image](https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image14.png)
 
 #### A. Interpretation 
 The current median average session duration for the Medium Engagement segment is 84 minutes. The vast majority of the segment (75%) concludes their session by the Upper Quartile (123 minutes). The Hardcore Conversion Prompt Time is 138 minutes, which sits beyond the Upper Quartile, highlighting a large 15-minute intensity gap (138−123) that players must cross to reach the Hardcore behavior threshold.
@@ -235,7 +235,7 @@ Action: The product team must programme the highest-value, recurring purchase pr
 ### 12. Targeted Difficulty Incentive: Quantifying Challenge-Ready Players 
 The goal of this visualisation is to find out the size of the target pool where challenge-based in-game promotions will be presented to them by comparing the number of Medium and High Engagement players who already prefer the Hardest Difficulty setting. I used a Grouped Bar Chart Showing Raw Counts and Percentages because this format clearly establishes the volume of Medium players who are already pre-disposed to the Hardcore behavior of seeking challenge, allowing the product team to efficiently target event rewards toward them.
 
-![image] (https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image5.png)
+![image](https://github.com/Jerry5612/data-analyst-portfolio/blob/Jerry5612-images-1/image5.png)
 
 #### A. Interpretation 
 The Medium Engagement segment contributes the majority of the combined population currently engaging with the Hardest Difficulty gameplay setting. Specifically, 734 players who choose Hard difficulty are Medium Engagement (62.84% of the combined total), while 434 are High Engagement players (37.16%).
