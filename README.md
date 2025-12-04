@@ -80,7 +80,8 @@ EngagementLevel
 Data Visualization: [Tableau](https://public.tableau.com/app/profile/jerry.soh/viz/game-playertype-casestudy/AveragePlayTimeHoursByPlayerType) 
 
 The data is cleaned and stored appropriately and is now prepared for analysis. I visualised the analysed results in Tableau.
-The first analysis question is: How do Hardcore Players and Casual Players play Shadow City Saga differently? (Diagnosis)
+
+### The first analysis question is: How do Hardcore Players and Casual Players play Shadow City Saga differently? (Diagnosis)
 This question focuses on descriptive analysis and comparison of key behavioral metrics across the defined segments (Casual vs Hardcore) and the intermediate segments of Low, Medium, and High Engagement.
 
 ### 1. Analysis of TotalPlayTimeHours (Total Time Investment since starting the game)
@@ -143,7 +144,7 @@ Progression efficiency (Achievements unlocked per Level) is not a distinguishing
 #### C. Implications for Strategy 
 Action: The product team should immediately re-evaluate the design and rewards tied to achievements. Since achievements fail to correlate with engagement, they are not driving deeper feature utilisation. Hence, marketing strategies must rely on the proven differentiators: the significant gaps in Session Frequency and Session Duration found in the previous analyses.
 
-The next analysis question is: What behavioral or in-game reward factors would motivate a Casual Player to transition into a Hardcore Player? (Incentives)
+### The next analysis question is: What behavioral or in-game reward factors would motivate a Casual Player to transition into a Hardcore Player? (Incentives)
 This involves identifying the leading indicators of conversion, focusing on the players in the Medium Engagement group as the prime conversion target.
 
 ### 6. Difficulty Preference as an In-Game Motivational Factor
@@ -195,7 +196,7 @@ Financial efficiency can be maximised due to the size of the target (20). Since 
 #### C. Implications for Strategy 
 Action: Immediately use behavioral segmentation tools (such as SQL queries on the player database or analytics platform filters) to flag the 0.51% of Medium players who fall into the Conversion Quadrant. The marketing team should execute a high-priority digital campaign (eg. Email, Social retargeting) offering a personalised, high-value incentive (eg. 50% off the first month of VIP Subscription) to convert them instantly, as they represent the target with the highest ​​Return on Investment (ROI) in the entire player base.
 
-The final analysis question is: How can Atlas Interactive use marketing channels and in-game promotions to convince Casual Players to become Hardcore Players? (Strategy)
+### The final analysis question is: How can Atlas Interactive use marketing channels and in-game promotions to convince Casual Players to become Hardcore Players? (Strategy)
 
 This involves synthesising the actionable insights from the previous analysis questions to create channel-specific, high-ROI marketing and product recommendations targeting the High-Potential subset of the Medium Engagement group.
 
@@ -294,9 +295,9 @@ Analysis of player behavior confirms that the path to profitability is very spec
 
 2. The Dual Opportunity: The target pool requires a dual strategy:
 
-  2A. Financial Target: Only 20 Players (0.51%) of the Medium segment are immediately ready for financial conversion offers (as they met both thresholds).
+   2A. Financial Target: Only 20 Players (0.51%) of the Medium segment are immediately ready for financial conversion offers (as they met both thresholds).
 
-  2B. Retention Target: A large cohort of 734 players is already seeking Hard difficulty content, making them ready for challenge-based retention programs.
+   2B. Retention Target: A large cohort of 734 players is already seeking Hard difficulty content, making them ready for challenge-based retention programs.
   
 3. The Conversion Gateway: The highest-risk progression point is the Level 51 → 52 transition, which must be reinforced to prevent player stagnation.
 
