@@ -244,33 +244,12 @@ Challenge-based rewards have high relevance and volume. The largest pool of play
 Action: Immediately launch in-game, time-limited events tied exclusively to the successful completion of Hard difficulty content. The rewards must be highly desirable and exclusive (eg. cosmetic upgrades, unique position titles) to fully capture the 734 challenge-ready Medium Engagement players and push them toward the Hardcore retention mindset.
 
 ### Summary
-#### Core Habits and Intensity
 
-The analysis of Core Habit (Frequency) shows a significant difference between player groups: Medium Engagement (Casual) players average 9 sessions per week, while Hardcore Engagement (Benchmark) players average 15 sessions per week. The strategy is to target Medium players with frequency-based rewards to push their sessions towards the 15-per-week benchmark. Regarding Core Habit (Intensity), Casual players average 84 minutes per session (though Q3 saw a higher 123 minutes), compared to the Hardcore median of 138 minutes per session. The highest-value promotion should be programmed to trigger precisely at the 138-minute mark, aligning with the product specification.
-
-#### Conversion and Targeting
-
-A critical drop-off point, the Conversion Gateway, was identified at Level 51, where players stagnate and are at high risk of quitting. The benchmark is to sustain progress past Level 52, the defined conversion gateway. Therefore, the strategic action is to reinforce the Level 51 to 52 transition using digital channels.
-
-The Financial Predictor analysis revealed that Purchase Status is identical to Non-Purchasers (both with a median of 9 sessions/week), meaning high frequency and duration are the true differentiators, not the purchase status itself. As a result, the strategy is to abandon Purchase Status as a targeting metric and focus purely on behavioral thresholds.
-
-#### Efficiency and Preferences
-
-For Target Pool Efficiency, the high-potential target pool is extremely small, representing only 0.51% (20 players) of the segment, which is the key efficiency goal. The plan is to hyper-target this 0.51% pool with immediate financial offers to maximize ROI. A strong Challenge Preference was also noted, with a significant pool of 734 players already seeking Hard Difficulty content, a key behavioral trait. Exclusive, difficulty-based events should be launched to capture and retain this 734-player cohort. Finally, the analysis showed that player behavior is not driven by the number of Achievements or Total Lifetime Hours, as differentiation is minimal. These Inefficient Metrics should be excluded from all conversion modeling and marketing efforts.
+![image](https://github.com/Jerry5612/data-analyst-casestudy1/blob/Jerry5612-images-1/image15.png)
 
 ## Act
 
-### I. Digital Channel Targeting
-
-The first recommendation focuses on Digital Channel Targeting for efficiency. The actionable specification is to immediately flag the 0.51% High-Potential Medium players and deliver high-value, exclusive offers (such as a 50% VIP Pass discount) to convert their established hardcore behavior into immediate revenue. This action is estimated to have a high impact by focusing resources only on the highest ROI targets, thereby minimizing marketing expenditure on low-potential players.
-
-### II. In-Game Product Prompt
-
-The second recommendation involves an In-Game Product Prompt designed to capture revenue at the peak moment of player commitment. This is specified by programming the highest-value promotional trigger, such as a recurring subscription offer, to appear precisely at the 138-minute session mark, which is strategically placed just before the natural player churn point. This approach effectively leverages the behavioral intensity threshold observed in the data.
-
-### III. Retention & Motivation
-
-The final strategy addresses Retention & Motivation. The plan is to launch exclusive, challenge-based events tied to Hard Difficulty completion, targeting the 734 Medium players who have already demonstrated an aspiration for difficult content. The estimated impact is that this action rewards existing aspirational behavior, which successfully reinforces the Hardcore mindset and drives long-term player retention via appealing exclusive content.
+![image](https://github.com/Jerry5612/data-analyst-casestudy1/blob/Jerry5612-images-1/image16.png)
 
 ## Conclusion
 
@@ -304,13 +283,7 @@ Analysis of player behavior confirms that the path to profitability is very spec
 ### Strategic Recommendation: Dual-Focus Behavioral Campaign
 To maximise ROI and minimise wastage of marketing expenses, the strategy avoids mass-market tactics and employs two distinct, targeted streams based on the player's primary motivation for the game: financial value vs. challenge.
 
-#### High-Potential Financial Pool
-
-The High-Potential Financial Pool consists of a highly valuable, focused group of only 20 players (representing the 0.51% pool). These players are identified by a dual conversion threshold: maintaining 15 or more sessions per week and an average session duration of 138 minutes or more. Driven by a desire to maximize their investment, the promotional focus for this segment will be Recurring VIP Subscription Offers with a direct financial focus.
-
-#### Challenge-Ready Retention Pool
-
-The second segment is the Challenge-Ready Retention Pool, which is a larger group of 734 players. This cohort is distinguished by a clear behavioral conversion signal: a preference for the Hardest Difficulty Mode. Their primary motivation is rooted in seeking challenge and achievement, and the appropriate promotional focus for them is Exclusive, Difficulty-Based In-Game Events with a content focus.
+![image](https://github.com/Jerry5612/data-analyst-casestudy1/blob/Jerry5612-images-1/image17.png)
 
 ### Implementation & Action
 
